@@ -1,0 +1,19 @@
+<!--index.wxml-->
+<view class="container">
+  
+  <view class="box2">
+    <image mode='widthFix' src='../../images/img1.jpg'></image>
+  </view>
+  <view class="box1 hide{{showView?'':'show'}}">
+    <text class="pro-tit">{{pro.title}}\n</text>
+    <text class="pro-content">{{pro.content}}\n</text>
+    <text class="pro-info">{{proinfo}}</text>
+  </view>
+  <view>
+    <button bindtap='clickQuery' class='cmtBtn'>点击查询</button>
+  </view>
+  <view class='box3'>
+    <view class='dateTxtView'><input class='dateTxt' type='text' placeholder='Fri Apr 06 2018 18:05:12 GMT+0800' value='{{dateText}}'></input></view>
+   <button class='dateBtn' bindtap='clickFormatDate'>格式化时间</button>
+  </view>
+</view>

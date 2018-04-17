@@ -1,0 +1,11 @@
+{
+	"miniprogramRoot": "./miniHome",
+	"pluginRoot": "./plugin",
+	"compileType": "plugin",
+	"setting": {
+		"newFeature": true
+	},
+	"appid": "wxbf77914cbf3b9e70",
+	"projectname": "miniWeb",
+	"condition": {}
+}
